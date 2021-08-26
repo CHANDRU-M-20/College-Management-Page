@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CollegeEvent</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/6f72e458d3.js" crossorigin="anonymous"></script>
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">-->
+        <link rel="stylesheet" href="style.css">
+         <link rel="stylesheet" href="campus.css">
+        <link rel="stylesheet" href="events.css">
+        <link rel="stylesheet" href="facilities.css">
+        <link rel="stylesheet" href="contactus.css">
+        <link rel="stylesheet" href="footer.css">
+       <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"> -->
+    </head>
+    <body >
+        <section class="sub-header">
+            <nav>
+                <a href="index.html">logo </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times fa-fw" onCLick="hideMenu()" ></i>
+                   
+                    <ul>
+                        <li><a href="index.html ">HOME</a></li>
+                        <li><a href=" Event.html">EVENT</a></li>
+                        <li><a href="previousEvents.html ">PREVIOUS EVENTS</a></li>
+                        <li><a href="facilities.html ">FACILITIES/a></li>
+                        <li><a href="about.html ">ABOUT</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onClick="showMenu() " id="fa1" ></i>
+            </nav>
+            <h1 id="aboutus">UPCOMMING EVENTS</h1>
+        </section>
+        <!--*************Events*******************-->
+       <section class="event">
+            <h1> 🚀Events🚀(JULY 16-JULY 17)</h1><br>
+            <p>All events here,let start to join the event now and explore new Technologies</p>
+            <div class="row">
+                <div class="event-col">
+                     <h3> 💻Technical Events-AI</h3>
+                     <p>Project Presentation on Artificial Intelligence Not limited to the following Ideas,</P><br>
+                     <p>1. Computer Vision<br>
+                     2. Beat the Pandemic with AI<br>
+                     3. Think Automation Using AI<br>
+                     Project Presentation</p>
+                </div>
+
+                <div class="event-col">
+                     <h3> 🎼Non Technical 🧑‍🎤Events</h3>
+                     <p>Project Presentation on Artificial Intelligence Not limited to the following Ideas,</P><br>
+                     <p>1. Computer Vision<br>
+                     2. Beat the Pandemic with AI<br>
+                     3. Think Automation Using AI<br>
+                     Project Presentation</p>
+                </div>
+                <div class="event-col">
+                     <h3>AI Workshops</h3>
+                     <p>Project Presentation on Artificial Intelligence Not limited to the following Ideas,</P><br>
+                     <p>1. Computer Vision<br>
+                     2. Beat the Pandemic with AI<br>
+                     3. Think Automation Using AI<br>
+                     Project Presentation</p>
+                </div>
+            </div>
+       </section>
+    <!--*************campus***************-->
+   
+    <!--********FACILITIES***********-->
+    
+      <!-- ***************Scripts************    -->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+    </script>
+
+
+    </body>
+    
+
+    </html>

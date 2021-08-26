@@ -1,0 +1,25 @@
+.faci{
+    width:80%;
+    margin:auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.faci-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.faci-col img{
+    width:100%;
+    border-radius: 10px;
+    height: 53%;}
+.faci-col p{
+    padding: 0;
+
+    
+}
+.faci-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
